@@ -1,6 +1,4 @@
 <?php
+$word = 'var_test_text';
 
-echo 'Enter your message: ';
-$input = fgets(STDIN);
-
-var_dump(str_replace($input, '_', ''));
+var_dump(str_replace('_t','T', $word));
